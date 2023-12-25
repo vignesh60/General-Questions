@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(222, 248, 249);
+}
+.questions{
+    width: 35rem;
+    text-align: center;
+}
+.questions .title{
+    font-size: 2.5rem;
+    font-family: 'Kunstler Script';
+    color: rgb(146, 146, 51);
+    margin-bottom: 4rem;
+}
+
+.question{
+    border-radius: 10px;
+    background: white;
+    box-shadow: 4px 4px 10px -6px;
+    margin-top: 2rem;
+    text-align: start;
+    padding:1.2rem;
+}
+.question-title{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    margin-bottom: 1rem;
+    font-family: 'Bahnschrift';
+    letter-spacing: 4px;
+}
+.plus-icon{
+    font-size: 1.4rem;
+}
+.minus-icon{
+    font-size: 1.4rem;
+}
+.question-btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+hr{
+    color:rgb(188, 149, 76);
+}
+.question-text{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: rgb(98, 98, 99);
+}
+
+.question-text{
+    display: none;
+}
+.show-text .question-text{
+    display: block;
+}
+.minus-icon{
+    display: none;
+}
+.show-text .minus-icon{
+    display: inline;
+}
+.show-text .plus-icon{
+    display: none;
+}
